@@ -12,15 +12,15 @@
 }
 .instaMobile {
     background: url('../../images/instabackground.png');
-    background-size:500px 650px;
+    background-size:400px 600px;
     background-repeat: no-repeat; 
 padding: 10px;
 }
 .mobileImg{
-margin-left :160px;
+margin-left :130px;
 margin-right:20px;
 margin-top: 14px;
-width: 260px;
+height: 520px;
 
 }
 

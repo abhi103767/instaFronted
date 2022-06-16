@@ -15,7 +15,7 @@ color: var(--footer-font-color);
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-margin:0 20px;
+margin:0 10px;
 }
 .footerParent>div:nth-child(2){
     display: flex;
