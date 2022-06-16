@@ -2,6 +2,7 @@ import React from 'react'
 import Input from '../Global/Input'
 import style from './register.module.css'
 import InstaImage from '../../images/instWritten.png';
+import Button from '../Global/Button';
 
 function Register() {
 
@@ -10,7 +11,7 @@ function Register() {
   return (
     <div className={style.register}>
         <div className={style.topBlank}></div>
-        <div className={style.contentBox}>
+        <div className={style.form}>
             <div>
                 <img src= "https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png" className={style.imageMargin} />
             </div>
@@ -36,14 +37,9 @@ function Register() {
              <a  className = {style.link}href='https://help.instagram.com/1896641480634370?ref=ig'>Cookies Policy</a>
              
          </div>
-
-            <div>
-
-            </div>
-
-            </div>
-       
        </div>
+       <Button />
+    </div>
     </div>
   )
 }

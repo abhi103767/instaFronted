@@ -8,10 +8,11 @@
     width: 350px;
     height: 25px;
 }
-.contentBox{
+.form{
    box-sizing: border-box;
-   padding : 44px;
-   border: 1px solid black
+   padding : 42px;
+   border: 1px solid black;
+   text-align: center;
 }
 .imageMargin{
     width: 180px;
@@ -28,5 +29,6 @@
     color : #8e8e8e;
     font-weight: bold;
     text-decoration: none;
+
 
 }
