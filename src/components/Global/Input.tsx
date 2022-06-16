@@ -12,7 +12,7 @@ function Input(props : InputProps) {
   return (
     <div>
         <div  className={style.border}>
-        <input  className={style.input} type={'text'}
+        <input  className={style.input} type={placeholderText==='Password'? "password" : "text"}
         onChange={handleChange} placeholder={placeholderText}/>
         </div>
     </div>

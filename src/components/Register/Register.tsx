@@ -49,7 +49,7 @@ const handleChange = (e:any) => {
              
          </div>
        </div>
-       <Button />
+       <Button buttonInnerText='LogIn'/>
     </div>
     <div className={style.account}>
         Have a Account?
