@@ -1,0 +1,10 @@
+.register{
+    height: 100vh;
+    width: 350px;
+    margin: auto;
+    margin-top : 30
+}
+.topBlank{
+    width: 350px;
+    height: 40px;
+}
