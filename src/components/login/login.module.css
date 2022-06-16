@@ -1,0 +1,61 @@
+:root{
+    --background-color:#fafafa;
+}
+
+.loginPage{
+    background-color: var(--background-color);
+}
+
+
+.footerSignLog {
+    border: 1px solid black;
+}
+.instaMobile {
+    background: url('../../images/instabackground.png');
+    background-size:500px 650px;
+    background-repeat: no-repeat; 
+padding: 10px;
+}
+.mobileImg{
+margin-left :160px;
+margin-right:20px;
+margin-top: 14px;
+width: 260px;
+
+}
+
+.formDiv{
+    border: 1px solid black;
+    height:581px;
+    flex-grow: 1;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.mobilewrapper{
+    display: flex;
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper{
+    display:flex;
+margin-left:20px;
+margin-right:20px;
+    margin-top: 50px;
+
+    flex-direction: row;
+    width:90%;
+    justify-content: center;
+
+}
+
+
+@media  screen and (max-width:870px) {
+    .mobilewrapper{
+        display:none;
+    }
+    
+}
