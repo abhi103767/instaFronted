@@ -4,7 +4,7 @@ import login from "./login.module.css"
 // importing images
 import instaMobile from '../../images/instaMobile.png'
 import instalogo from "../../images/instWritten.png"
-import FooterLogin from './FooterLogin'
+import FooterLogin from '../Footer/FooterLogin'
 const Login = () => {
   return (
     <div className={login.loginPage}>
