@@ -1,0 +1,27 @@
+:root{
+    --footer-font-color:#8e8e8e;
+}
+.footerParent{
+color: var(--footer-font-color);
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: 12px;
+margin:20px;
+margin-top: 30px;
+}
+.footerFeatures{
+color: var(--footer-font-color);
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin:0 20px;
+}
+.footerParent>div:nth-child(2){
+    display: flex;
+    margin:20px;
+    justify-content: center;
+}
+.footerFeatures>p{
+    margin :5px 15px;
+}

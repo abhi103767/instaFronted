@@ -4,6 +4,7 @@ import login from "./login.module.css"
 // importing images
 import instaMobile from '../../images/instaMobile.png'
 import instalogo from "../../images/instWritten.png"
+import FooterLogin from './FooterLogin'
 const Login = () => {
   return (
     <div className={login.loginPage}>
@@ -25,7 +26,7 @@ const Login = () => {
             </div>
           </div>
         </div>
-        <footer className={login.footerSignLog}></footer>
+        <FooterLogin/>
       </main>
     </div>
   );
