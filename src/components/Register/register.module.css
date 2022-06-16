@@ -1,0 +1,67 @@
+.register{
+    width: 350px;
+    margin: auto;
+    margin-top : 30
+}
+.topBlank{
+    width: 350px;
+    height: 25px;
+}
+.form{
+   box-sizing: border-box;
+   padding : 42px;
+   border: 1px solid #e0e0e0;
+   background-color : #fff;
+   text-align: center;
+}
+.imageMargin{
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+.signupText{
+    margin-top: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+   color : #8e8e8e;
+   font-weight: bolder;
+}
+
+.link{
+    color : #8e8e8e;
+    font-weight: bolder;
+    text-decoration: none;
+
+
+}
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.formFooter{
+    margin-top: 20px;
+    color: #8e8e8e;
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 35px;
+}
+.formPrivacy{
+  margin-top: 15px;
+}
+.account{
+    font-size: small;
+ background-color : #fff;
+ margin-top: 10px;
+ display: flex;
+ height: 70px;
+ justify-content: center;
+ align-items: center;
+ border: 1px solid #e0e0e0;
+}
+
+.loginLink{
+    margin-left: 4px;
+    color :#0095F6 ;
+    text-decoration: none; 
+}

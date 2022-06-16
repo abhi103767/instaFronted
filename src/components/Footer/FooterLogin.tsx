@@ -2,7 +2,7 @@ import React from 'react';
 // import css
 import footer from './footer.module.css';
 
-const FooterLogin = () => {
+const FooterLogin = ({}) => {
   return (
       <footer className={ footer.footerParent}>
       <div className={footer.footerFeatures}>

@@ -1,0 +1,24 @@
+.input{
+   border: none; 
+   width: 95%;
+   box-shadow: none;
+   background-color: #fafafa;
+   
+}
+*:focus {
+   outline: none;
+}
+
+.border{
+   width: 260px;
+   background-color: #fafafa;
+   box-sizing: border-box;
+   border:  1px solid #e0e0e0;
+   padding: 5px;
+   border-radius: 2px;
+}
+/* 
+focus not applying on border */
+.border :focus{
+   
+}
