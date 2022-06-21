@@ -6,7 +6,7 @@ type ButtonProps = {
 function Button(props:ButtonProps) {
   return (
     <>
-        <button className={style.btn}>Sign up</button>
+        <button className={style.btn}>{props.buttonInnerText}</button>
     </>
   )
 }

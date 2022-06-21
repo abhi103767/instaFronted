@@ -52,25 +52,15 @@ const handleChange = (e:any) => {
                 ))}
               </div>
               <div className={style.formFooter}>
-                <div>
-                  People who use our service may have uploaded your contact
-                  information to Instagram.
-                  <a
-                    className={style.link}
-                    href="https://www.facebook.com/help/instagram/261704639352628"
-                    target={'_blank'}
-                  >
-                    {' '}
-                    Learn More
-                  </a>
-                </div>
+              
                 <div className={style.formPrivacy}>
                   By signing up, you agree to our
+                  <br />
                   <a
                     className={style.link}
                     href="https://help.instagram.com/581066165581870"
                   >
-                    Terms
+                    Terms { }
                   </a>
                   <a
                     className={style.link}
@@ -87,7 +77,7 @@ const handleChange = (e:any) => {
                   </a>
                 </div>
               </div>
-              <Button buttonInnerText="LogIn" />
+              <Button buttonInnerText="Sign Up" />
             </div>
             <div className={style.account}>
               Have a Account?
