@@ -12,31 +12,34 @@
 }
 .instaMobile {
     background: url('../../images/instabackground.png');
-    background-size:400px 600px;
+    background-size:400px 610px;
     background-repeat: no-repeat; 
 padding: 10px;
 }
+.wrapper{
+    gap:30px
+}
 .mobileImg{
-margin-left :130px;
+margin-left :125px;
 margin-right:20px;
-margin-top: 14px;
-height: 520px;
+margin-top: 12px;
+height: 525px;
+width: 215px;
 
 }
 
 .formDiv{
     border: 1px solid black;
     height:581px;
-    flex-grow: 1;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     
 }
 
 .mobilewrapper{
     display: flex;
-    flex-grow:1;
-    justify-content: center;
+
+    justify-content: flex-end;
     align-items: center;
 
 }
